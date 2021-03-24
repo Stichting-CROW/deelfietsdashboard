@@ -80,11 +80,12 @@ Therefore, the specification has been extended to provide the required informati
 Based on [endpoint specification][3]: `/operator/available-assets`. 
 
 Value | Note
----|---
+---|--- 
 `assetClass` | always REQUIRED
 `assets[]/id` | REQUIRED and non-standard: a persistent id
+`assets[]/isReserved` | always REQUIRED
+`assets[]/isDisabled` | always REQUIRED
 `assets[]/overriddenProperties/locations/coordinates` | REQUIRED
-`assets[]/overriddenProperties/vehicle_state` | REQUIRED: custom string, value MUST be from MDS [`vehicle_state`s][4].
 {.data} |
 
 The persistent asset ID `id` SHALL NOT be rotated after a trip.
