@@ -58,7 +58,7 @@ Value | Note
 ---|---
 `bikes[]/bike_id` | REQUIRED, non-standard: persistent id
 `bikes[]/lat` and `bikes[]/lon` | REQUIRED
-`bikes[]/vehicle_type_id` | OPTIONAL: vehicle type
+`bikes[]/vehicle_type_id` | REQUIRED (which refers to [vehicle_types.json][vehicle_types])
 `bikes[]/is_disabled` | always REQUIRED 
 `bikes[]/is_reserved` | always REQUIRED 
 {.data} |
@@ -67,7 +67,7 @@ The static bike ID `bike_id` SHALL NOT be rotated after a trip.
 It MAY be rotated after being removed from public space.
 
 [2]: https://github.com/NABSA/gbfs/blob/master/gbfs.md#free_bike_statusjson
-
+[vehicle_types]: https://github.com/NABSA/gbfs/blob/master/gbfs.md#vehicle_typesjson-added-in-v21
 
 ### TOMP (customized)
 
@@ -86,6 +86,7 @@ Value | Note
 `assets[]/isReserved` | always REQUIRED
 `assets[]/isDisabled` | always REQUIRED
 `assets[]/overriddenProperties/locations/coordinates` | REQUIRED
+`assets[]/overriddenProperties/fuel` | REQUIRED
 {.data} |
 
 The persistent asset ID `id` SHALL NOT be rotated after a trip.
