@@ -85,7 +85,7 @@ Value | Note
 `assets[]/id` | REQUIRED and non-standard: a persistent id
 `assets[]/isReserved` | always REQUIRED
 `assets[]/isDisabled` | always REQUIRED
-`assets[]/overriddenProperties/locations/coordinates` | REQUIRED
+`assets[]/overriddenProperties/location/coordinates` | REQUIRED
 `assets[]/overriddenProperties/fuel` | REQUIRED
 {.data} |
 
