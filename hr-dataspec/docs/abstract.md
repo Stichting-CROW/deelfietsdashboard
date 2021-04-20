@@ -1,4 +1,4 @@
-This document specifies how data in [=MDS=], [=GBFS=] or [=TOMP=] for the [CROW deelfietsdashboard][db].
+This document specifies what data according to [=GBFS=] or [=TOMP=] is used by the [CROW deelfietsdashboard][db].
 
 <div lang='nl'>
 

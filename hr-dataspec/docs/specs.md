@@ -11,7 +11,6 @@ The [=operator=] SHALL provide shared mobility data conforming to one of the bel
 
 Standard | Note
 ---|---
-[MDS](#mds) | Preferred.
 [GBFS](#gbfs-customized) | Requires a customized feed for CROW deelfietsdashboard.
 [TOMP](#tomp-customized) | Requires a customized feed for CROW deelfietsdashboard.
 {.data}
@@ -27,22 +26,6 @@ Reserved vehicles or vehicles with empty batteries, etc. take up place in the pu
 Data provided in a feed or endpoint MUST be updated at least every 30 seconds.
 
 </div>
-
-### MDS
-
-Based on [endpoint specification][1]: `/vehicles`.
-
-Value | Note
----|---
-`current_location`    | always REQUIRED
-`last_event_location` | always REQUIRED
-`propulsion_types`    | always REQUIRED
-`vehicle_type`        | always REQUIRED
-`last_vehicle_state`  | always REQUIRED
-`last_event_types`    | always REQUIRED
-{.data}
-
-[1]: https://github.com/openmobilityfoundation/mobility-data-specification/blob/main/provider/README.md#vehicles 
 
 ### GBFS (customized)
 
