@@ -32,14 +32,18 @@ Data provided in a feed or endpoint MUST be updated at least every 30 seconds.
 
 Based on [endpoint specification][1]: `/vehicles`.
 
+Below fields MUST be supplied for the Deelfietsdashboard. 
+Other field MAY be filled and indeed are required by the MDS specification.
+
 Value | Note
 ---|---
 `current_location`    | always REQUIRED
+`device_id`           | always REQUIRED
 `last_event_location` | always REQUIRED
+`last_event_types`    | always REQUIRED
+`last_vehicle_state`  | always REQUIRED
 `propulsion_types`    | always REQUIRED
 `vehicle_type`        | always REQUIRED
-`last_vehicle_state`  | always REQUIRED
-`last_event_types`    | always REQUIRED
 {.data}
 
 [1]: https://github.com/openmobilityfoundation/mobility-data-specification/blob/main/provider/README.md#vehicles 
