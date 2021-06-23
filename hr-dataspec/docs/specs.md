@@ -14,7 +14,7 @@ Standard | Note
 ### General
 
 Parked vehicles that are present in the public space (i.e., PROW) MUST be present in the supplied data.
-That includes reserved vehicles or vehicles with empty batteries, etc. that take up place in the public space. 
+That includes reserved and disabled vehicles or vehicles with empty batteries, etc. that take up place in the public space. 
 Inversely, vehicles removed from the public space MUST NOT be returned.
 
 Data provided in a feed or endpoint MUST be updated at least every 30 seconds.
