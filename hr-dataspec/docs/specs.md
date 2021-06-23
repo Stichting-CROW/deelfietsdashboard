@@ -1,13 +1,8 @@
 ## Data specifications
 
-Deelfietsdashboard currently supports three data standards for shared mobility.
-Out-of-the-box only MDS provides the required information, therefore information via the other standards require more fields.
+The [=operator=] MUST provide data conforming to one of the below described specifications.
 
-<div class='advisement'>
-
-The [=operator=] SHALL provide shared mobility data conforming to one of the below described specifications.
-
-</div>
+Customized feeds MAY be implemented as an alternative to [=MDS=].
 
 Standard | Note
 ---|---
@@ -18,15 +13,11 @@ Standard | Note
 
 ### General
 
-<div class="advisement">
-
-In any response, vehicles that are currently removed from the public space (i.e., PROW) SHALL NOT be returned.
-
-Reserved vehicles or vehicles with empty batteries, etc. take up place in the public space and MUST returned.
+Parked vehicles that are present in the public space (i.e., PROW) MUST be present in the supplied data.
+That includes reserved vehicles or vehicles with empty batteries, etc. that take up place in the public space. 
+Inversely, vehicles removed from the public space MUST NOT be returned.
 
 Data provided in a feed or endpoint MUST be updated at least every 30 seconds.
-
-</div>
 
 ### MDS
 
