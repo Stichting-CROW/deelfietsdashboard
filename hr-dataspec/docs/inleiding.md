@@ -2,8 +2,8 @@
 
 The CROW deelfietsdashboard uses simple data formats to collect information on shared mobility to present to regulatory agencies, usually municipalities.
 This data is provided by operators.
-It works by requesting the location of every vehicle currently available for rental in the public space (*openbare ruimte*).
-Unavailable vehicles should be removed from such responses.
+It works by requesting the location of every vehicle currently present in the public space (*openbare ruimte*).
+Vehicles removed from the public space and vehicles in use should be removed from such responses.
 
 There are several data formats available for this exchange.
 CROW deelfietsdashboard prefers MDS’s `/vehicles` endpoint, as MDS was designed for regulatory use.
