@@ -12,7 +12,7 @@ After that, we show exactly how to implement this in your GBFS, MDS or TOMP data
 | English                     | Dutch                       |
 | --------------------------- | --------------------------- |
 | Bicycle                     | Gewone fiets                |
-| Bicycle with pedal assist   | Fiets met trapondersteuning |
+| Bicycle with pedal assist   | Elektrische fiets |
 | Moped <= 25 km/h            | Snorfiets (blauw kenteken)  |
 | Moped                       | Bromfiets (geel kenteken)   |
 | Scooter                     | Elektrisch step             |
