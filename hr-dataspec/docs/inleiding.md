@@ -10,4 +10,4 @@ CROW deelfietsdashboard prefers MDS’s [`/vehicles`](https://github.com/openmob
 GBFS and TOMP-API are also possible data exchange formats but have been designed for traveler information.
 Therefore, some modifications were made to the specification to deduce trips from available vehicles.
 
-** We strongly recomend to use MDS [`/vehicles`](https://github.com/openmobilityfoundation/mobility-data-specification/blob/main/provider/README.md#vehicles) endpoint when you rely on a external supplier for your software systems. Because it's the only standard we support without small modifications on the original standards. ** 
+_We strongly recomend to use MDS [`/vehicles`](https://github.com/openmobilityfoundation/mobility-data-specification/blob/main/provider/README.md#vehicles) endpoint when you rely on a external supplier for your software systems. Because it's the only standard we support without small modifications on the original standards._
