@@ -1,9 +1,9 @@
-This document specifies what data is used by the [CROW deelfietsdashboard][db], following the [=MDS=], [=GBFS=] or [=TOMP=] specifications.
+This document specifies what data is used by the [CROW-Fietsberaad Dashboard deelmobiliteit][db] (_shared mobility dashboard_), following the [=MDS=], [=GBFS=] or [=TOMP=] specifications.
 
 <div lang='nl'>
 
-Dit document beschrijft in het Engels van het [CROW deelfietsdashboard][db] hoe gegevens van deelmobiliteit aangeleverd moeten worden.
+Dit document beschrijft in het Engels van het [CROW-Fietsberaad Dashboard deelmobiliteit][db] hoe gegevens van deelmobiliteit aangeleverd moeten worden.
 
 </div>
 
-[db]: https://deelfietsdashboard.nl/
+[db]: https://dashboarddeelmobiliteit.nl/

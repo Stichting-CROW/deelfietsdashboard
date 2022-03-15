@@ -4,11 +4,11 @@ The [=operator=] MUST provide data conforming to one of the below described spec
 
 Customized feeds MAY be implemented as an alternative to [=MDS=].
 
-| Standard                 | Note                                                    |
-| ------------------------ | ------------------------------------------------------- |
-| [MDS](#mds)              | Preferred.                                              |
-| [GBFS](#gbfs-customized) | Requires a customized feed for CROW deelfietsdashboard. |
-| [TOMP](#tomp-customized) | Requires a customized feed for CROW deelfietsdashboard. |
+| Standard                 | Note                                                                      |
+| ------------------------ | ------------------------------------------------------------------------- |
+| [MDS](#mds)              | Preferred.                                                                |
+| [GBFS](#gbfs-customized) | Requires a customized feed for CROW-Fietsberaad Dashboard deelmobiliteit. |
+| [TOMP](#tomp-customized) | Requires a customized feed for CROW-Fietsberaad Dashboard deelmobiliteit. |
 
 {.data}
 
@@ -25,25 +25,25 @@ The update frequency MAY be higher.
 
 Based on [endpoint specification][1]: `/vehicles`.
 
-Below fields MUST be supplied for the Deelfietsdashboard. 
+Below fields MUST be supplied for the Dashboard deelmobiliteit.
 Other field MAY be filled and indeed are required by the MDS specification.
 
-Value | Note
----|---
-`current_location`    | always REQUIRED
-`device_id`           | always REQUIRED
-`last_event_location` | always REQUIRED
-`last_event_types`    | always REQUIRED
-`last_vehicle_state`  | always REQUIRED
-`propulsion_types`    | always REQUIRED
-`vehicle_type`        | always REQUIRED
+| Value                 | Note            |
+| --------------------- | --------------- |
+| `current_location`    | always REQUIRED |
+| `device_id`           | always REQUIRED |
+| `last_event_location` | always REQUIRED |
+| `last_event_types`    | always REQUIRED |
+| `last_vehicle_state`  | always REQUIRED |
+| `propulsion_types`    | always REQUIRED |
+| `vehicle_type`        | always REQUIRED |
 
 [1]: https://github.com/openmobilityfoundation/mobility-data-specification/blob/main/provider/README.md#vehicles
 
 ### GBFS (customized)
 
 <div class="note">
-GBFS does not provide enough information for CROW deelfietsdashboard. 
+GBFS does not provide enough information for the Dashboard deelmobiliteit. 
 Therefore, the specification has been extended to provide the required information.
 </div>
 
@@ -67,7 +67,7 @@ It MAY be rotated after being removed from public space.
 ### TOMP (customized)
 
 <div class="note">
-TOMP by itself does not provide enough information for CROW deelfietsdashboard. 
+TOMP by itself does not provide enough information for Dashboard deelmobiliteit. 
 Therefore, the specification has been extended to provide the required information.
 </div>
 

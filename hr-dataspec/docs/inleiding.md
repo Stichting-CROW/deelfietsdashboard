@@ -1,6 +1,6 @@
 ## Introduction
 
-The CROW deelfietsdashboard uses simple data formats to collect information on shared mobility to present to regulatory agencies, usually municipalities.
+The CROW-Fietsberaad Dashboard deelmobiliteit uses simple data formats to collect information on shared mobility to present to regulatory agencies, usually municipalities.
 This data is provided by operators.
 It works by requesting the location of every vehicle currently present in the public space (*openbare ruimte*).
 Vehicles removed from the public space and vehicles in use should be removed from such responses.
