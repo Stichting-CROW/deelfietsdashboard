@@ -44,7 +44,7 @@ The providers shall provide [authorization][mds-auth] for API endpoints via a to
 
 In the past CROW Dashboard supported the GBFS and TOMP APIs. As these standards are designed for traveler information and not for regulatory purposes, since 2022 MDS is required.
 
-MDS is a grown up standard up that is widely applied in Europe and the USA and therefor a future proof data exchange format to support municipalities with regulating and monitoring shared mobility operations.
+MDS is a mature standard up that is widely applied across Europe and North America, and therefore a future proof data exchange standard to support municipalities with regulating and monitoring shared mobility operations.
 
 ### GBFS (customized) (deprecated)
 
