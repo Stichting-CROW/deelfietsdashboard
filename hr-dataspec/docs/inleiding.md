@@ -1,6 +1,6 @@
 ## Introduction
 
-The CROW-Fietsberaad Dashboard Deelmobiliteit uses MDS to collect information on shared mobility to present to regulatory agencies, usually municipalities. This data is provided by operators.
+The CROW-Fietsberaad Dashboard Deelmobiliteit uses MDS >= 1.2.0 to collect information on shared mobility to present to regulatory agencies, usually municipalities. This data is provided by operators.
 
 CROW Dashboard Deelmobiliteit requires MDS, a data standard designed for regulatory use. With this we are following the selected CDS-M data standard.
 
