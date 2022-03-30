@@ -27,7 +27,7 @@ NOTE: In the _Vehicle types_ section we help you set the right vehicle type for 
 
 The provider must offer [`/trips`][mds-trips] endpoint, part of the MDS Provider API.
 
-CROW Dashboard uses this endpoint to get the exact historical rentals.
+CROW Dashboard Deelmobiliteit uses this endpoint to get the exact historical rentals.
 
 NOTE: For the [`route`][mds-trips-routes] property only the start and end of a rental are required. 
 
@@ -44,7 +44,7 @@ The providers shall provide [authorization][mds-auth] for API endpoints via a to
 
 In the past CROW Dashboard supported the GBFS and TOMP APIs. As these standards are designed for traveler information and not for regulatory purposes, since 2022 MDS is required.
 
-MDS is a grown up standard up that is widely applied in Europe and the USA and therefor a future proof data exchange format to support municipalities with regulating and monitoring shared mobility operations.
+MDS is a mature standard up that is widely applied across Europe and North America, and therefore a future proof data exchange standard to support municipalities with regulating and monitoring shared mobility operations.
 
 ### GBFS (customized) (deprecated)
 

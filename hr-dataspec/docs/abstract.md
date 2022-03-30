@@ -4,7 +4,7 @@ The Dashboard Deelmobiliteit is used by municipalities to monitor shared mobilit
 
 The Dashboard Deelmobiliteit applies the guidelines the [CDS-M][cdsm] framework.
 
-New operators should offer the `/vehicles` and `/trips` [=MDS=] end points of the MDS [Provider API][mds-provider-api]. For compatibility purposes we currently support [=GBFS=] and [=TOMP=] as well, but these will be phases out in the future.
+New operators should offer the `/vehicles` and `/trips` [=MDS=] end points of the MDS [Provider API][mds-provider-api]. For compatibility purposes we currently support [=GBFS=] and [=TOMP=] as well, but these will be phased out in the future.
 
 <div lang='nl'>
 
