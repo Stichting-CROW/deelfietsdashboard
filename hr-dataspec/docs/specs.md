@@ -25,7 +25,7 @@ NOTE: In the _Vehicle types_ section we help you set the right vehicle type for 
 
 ### MDS /trips
 
-The provider must offer [`/trips`][mds-trips] endpoint, part of the MDS Provider API.
+The provider can offer [`/trips`][mds-trips] endpoint, part of the MDS Provider API.
 
 CROW Dashboard Deelmobiliteit uses this endpoint to get the exact historical rentals.
 
