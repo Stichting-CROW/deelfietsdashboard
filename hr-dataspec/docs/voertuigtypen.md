@@ -38,7 +38,7 @@ Please share vehicle type information in your MDS feed:
 
 In the table below you'll find all the combinations possible.
 
-| vehicle type                | form_factor       | propulsion_type | max_permitted_speed
+| vehicle type                | vehicle_type       | propulsion_type | max_permitted_speed
 | ---------------             | ----------------- | --------------- | ----------- 
 | Bicycle                     | bicycle           | human           | -
 | Bicycle with pedal assist   | bicycle           | electric_assist | 25

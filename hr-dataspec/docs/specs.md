@@ -15,7 +15,7 @@ The update frequency MAY be higher.
 
 ### MDS /vehicles
 
-The provider must offer [`/vehicles`][1] endpoint, part of the MDS (>= 1.2.0) Provider API.
+The provider must offer the [`/vehicles`][1] endpoint, part of the MDS (>= 1.2.0) Provider API.
 
 CROW Dashboard uses this endpoint to get a current snapshot of all vehicles in public space, at any moment.
 
